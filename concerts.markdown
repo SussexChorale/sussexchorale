@@ -23,8 +23,8 @@ and the Sinfonia da Chiesa
 
 Put these dates in your diary now
 
-#### Date Work
+#### TBC
 
-#### Date Work
+#### TBC
 
  ![concert flyer](/assets/images/concert2022-07-17.png)
