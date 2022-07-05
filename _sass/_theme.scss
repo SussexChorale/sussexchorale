@@ -1,5 +1,5 @@
 @import "variables";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 @mixin large {
 	@media screen and (min-width: #{$large-breakpoint}) {
@@ -28,7 +28,7 @@ body {
 	margin: 0;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: $body-font-size;
-	line-height: 1.5;
+	line-height: 1.7;
 	color: $body-text-color;
 }
 
@@ -45,8 +45,8 @@ body {
 		left: 10px;
 		height: auto;
 		width: auto;
-		background: yellowgreen;
-		outline: thick solid yellowgreen;
+		background: $all-focus-colour;
+		outline: thick solid $all-focus-colour;
 	}
 }
 
@@ -100,7 +100,9 @@ a {
 	@include small {
 		display: block;
 		width: 100%;
-		padding: 0.75rem;
+		padding: 0.25rem;
+		background-color: transparent;
+		border-color: $button-bg;
 
 		+ .btn {
 			margin-top: 1rem;
@@ -113,7 +115,13 @@ a {
 	color: $header-heading-color;
 	text-align: center;
 	background-color: $header-bg-color;
-	background-image: linear-gradient(0deg, $header-bg-color, $header-bg-color-secondary);
+	background-image: repeating-linear-gradient(
+		45deg,
+		transparent,
+		transparent 10px,
+		rgba($header-bg-color-tertiary, 0.5) 10px,
+		rgba($header-bg-color-tertiary, 0.5) 11px
+	),linear-gradient(0deg, $header-bg-color, $header-bg-color-secondary);
 
 	@include large {
 		padding: 3rem 6rem 1rem;
@@ -131,7 +139,7 @@ a {
 .project-name {
 	margin-top: 0;
 	margin-bottom: 0.1rem;
-	text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.7);
+	text-shadow: 0px 0px 1px rgba($header-bg-color-tertiary, 0.7);
 
 
 	@include large {
@@ -143,7 +151,7 @@ a {
 	}
 
 	@include small {
-		font-size: 1.75rem;
+		font-size: 2rem;
 	}
 }
 
@@ -151,7 +159,7 @@ a {
 	margin-bottom: 2rem;
 	font-weight: normal;
 	opacity: 0.7;
-	text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.7);
+	text-shadow: 0px 0px 1px rgba($header-bg-color, 0.7);
 
 
 	@include large {
@@ -259,8 +267,4 @@ a {
 .site-footer-owner {
 	display: block;
 	font-weight: normal;
-}
-
-.site-footer-credits {
-	color: $blockquote-text-color;
 }

@@ -1,22 +1,30 @@
 $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
+
+$highlightcolor:  #99CC33;
+$brandcolor: #43862D;
+$brandcolor-dark: #397327;
+$brandcolor-darkest: #2c581e;
+
 // Headers
 $header-heading-color: #fff;
 $header-bg-color: #000;
+
 $header-bg-color-secondary: #474747;
+$header-bg-color-tertiary: #11300c;
+
 // $header-bg-color: #4D1927;
 // $header-bg-color-secondary: #862D4C;
 // $header-bg-color: #33194D;
 // $header-bg-color-secondary: #302D86;
-// $header-bg-color: #11300c;
-// $header-bg-color-secondary: #43862D;
+// $header-bg-color: #000;
+
 // Text
-$section-headings-color: #2c581e;
+$section-headings-color: $brandcolor-darkest;
 $body-text-color: #000000;
-$body-link-color: #397327;
+$body-link-color: $brandcolor-dark;
 $body-link-hover-bg: $body-link-color;
 $body-link-hover-txt: #fff;
-$blockquote-text-color: #819198 !default;
 
 
 // Borders
@@ -26,10 +34,10 @@ $hr-border-color: #eff0f1 !default;
 
 $body-font-size: 19px;
 
-$button-bg: #43862D;
-$button-hover-bg: #397327;
+$button-bg: $brandcolor;
+$button-hover-bg: $brandcolor-dark;
 $button-txt: #fff;
 $button-border: #fff;
 
-$all-focus-colour: #99CC33 !default;
+$all-focus-colour: $highlightcolor !default;
 
