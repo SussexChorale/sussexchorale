@@ -45,17 +45,18 @@ body {
 		left: 10px;
 		height: auto;
 		width: auto;
-		background: invert($body-link-color);
-		outline: thick solid invert($body-link-color);
+		background: yellowgreen;
+		outline: thick solid yellowgreen;
 	}
 }
 
 a {
 	color: $body-link-color;
-	text-decoration: none;
 
 	&:hover {
-		text-decoration: underline;
+		text-decoration: none;
+		background: $body-link-hover-bg;
+		color: $body-link-hover-txt;
 	}
 }
 

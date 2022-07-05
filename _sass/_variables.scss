@@ -13,7 +13,9 @@ $header-bg-color-secondary: #474747;
 // Text
 $section-headings-color: #2c581e;
 $body-text-color: #000000;
-$body-link-color: #0000d6;
+$body-link-color: #397327;
+$body-link-hover-bg: $body-link-color;
+$body-link-hover-txt: #fff;
 $blockquote-text-color: #819198 !default;
 
 
@@ -25,7 +27,7 @@ $hr-border-color: #eff0f1 !default;
 $body-font-size: 19px;
 
 $button-bg: #43862D;
-$button-hover-bg: darken(#43862D, 5%);
+$button-hover-bg: #397327;
 $button-txt: #fff;
 $button-border: #fff;
 
