@@ -68,13 +68,19 @@ a {
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 0.3rem;
-	transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+	transition: color 0.2s, background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+	outline-offset: 2px;
+	box-shadow:  0 0 3px 3px transparent;
 
 	&:hover {
-		color: rgba(255, 255, 255, 0.8);
+		color: $button-txt;
 		text-decoration: none;
-		background-color: rgba(255, 255, 255, 0.2);
+		background-color: $button-hover-bg;
 		border-color: rgba(255, 255, 255, 0.3);
+	}
+	&:focus {
+	box-shadow:  0 0 3px 4px $all-focus-colour;
+	outline: 0;
 	}
 
 	+ .btn {

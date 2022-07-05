@@ -25,5 +25,9 @@ $hr-border-color: #eff0f1 !default;
 $body-font-size: 19px;
 
 $button-bg: #43862D;
+$button-hover-bg: darken(#43862D, 5%);
 $button-txt: #fff;
-$button-border: #fff
+$button-border: #fff;
+
+$all-focus-colour: #99CC33 !default;
+
