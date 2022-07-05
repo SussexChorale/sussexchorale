@@ -23,14 +23,14 @@ email: jenny@automaticdreams.com
 description: >- # this means to ignore newlines until "baseurl:"
   Sussex based choral society singing large-scale sacred and secular music
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sussexchorale.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  automaticdreams
 
 # Build settings
 plugins:
   - jekyll-feed
-
+  - jekyll-seo-tag
 sass:
   sass_dir: _sass
 # Exclude from processing.
