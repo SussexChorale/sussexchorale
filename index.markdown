@@ -4,7 +4,7 @@ title: Sussex Chorale
 ---
 ## Welcome
 
-Sussex Chorale was founded in 2022, following the disruption that covid brought to most choral singing. Under the baton of Stephen Hope, together with our resident accompanist David Moore, we sing a wide variety of mainly sacred music and always welcome new singers in all voice parts.
+Sussex Chorale was founded in 2022, following the disruption that covid brought to most choral singing. Under the baton of Stephen Hope, together with our resident accompanist David Moore, we sing a wide variety of mainly sacred music and welcome new singers in all voice parts.
 
 In the summer term, Sussex Chorale joins with the Sussex Festival Choir to sing a major work at Arundel Cathedral. Tickets for our 2022 concert on the 17th July are available from choir members or on the door.
 
