@@ -20,5 +20,5 @@ The Church Office, Choir Members, on the Door or email:  <a href="mailto:stephen
 
 
 <a href="/assets/images/concert2022-11-26.pdf">
-<img src="/assets/images/concert2022-11-26.png" class="concert-img" alt="" />
+<img src="/assets/images/concert2022-11-26.png" class="concert-img" alt="download concert poster" />
 </a>
