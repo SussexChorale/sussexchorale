@@ -2,12 +2,12 @@ $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
 $highlightcolor:  #99CC33;
-$brandcolor: #43862D;
-$brandcolor-dark: #397327;
-$brandcolor-darkest: #2c581e;
+$brand-highlight: #397327;
+$brandcolor: #11282f;
+$background: #fffcf9;
 
 // Headers
-$header-heading-color: #fff;
+$header-heading-color: $background;
 $header-bg-color: #000;
 
 $header-bg-color-secondary: #474747;
@@ -20,24 +20,46 @@ $header-bg-color-tertiary: #11300c;
 // $header-bg-color: #000;
 
 // Text
-$section-headings-color: $brandcolor-darkest;
+$section-headings-color: $brandcolor;
 $body-text-color: #000000;
-$body-link-color: $brandcolor-dark;
+$body-link-color: lighten($brandcolor, 20%);
 $body-link-hover-bg: $body-link-color;
-$body-link-hover-txt: #fff;
+$body-link-hover-txt: $background;
 
 
 // Borders
-$border-color: #dce6f0 !default;
-$table-border-color: #e9ebec !default;
-$hr-border-color: #eff0f1 !default;
+$border-color: $background !default;
+$table-border-color: $background !default;
+$hr-border-color: $background !default;
 
 $body-font-size: 19px;
 
 $button-bg: $brandcolor;
-$button-hover-bg: $brandcolor-dark;
-$button-txt: #fff;
-$button-border: #fff;
+$button-hover-bg: $brand-highlight;
+$button-txt: $background;
+$button-border: $background;
 
 $all-focus-colour: $highlightcolor !default;
 
+@mixin visually-hidden($important: true) {
+  position: absolute if($important, !important, null);
+
+  width: 1px if($important, !important, null);
+  height: 1px if($important, !important, null);
+  // If margin is set to a negative value it can cause text to be announced in
+  // the wrong order in VoiceOver for OSX
+  margin: 0 if($important, !important, null);
+  padding: 0 if($important, !important, null);
+
+  overflow: hidden if($important, !important, null);
+  clip: rect(0 0 0 0) if($important, !important, null);
+  -webkit-clip-path: inset(50%) if($important, !important, null);
+  clip-path: inset(50%) if($important, !important, null);
+
+  border: 0 if($important, !important, null);
+
+  // For long content, line feeds are not interpreted as spaces and small width
+  // causes content to wrap 1 word per line:
+  // https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+  white-space: nowrap if($important, !important, null);
+}

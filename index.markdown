@@ -13,12 +13,10 @@ In the summer term, Sussex Chorale joins with the Sussex Festival Choir to sing 
 ### 26th November 2022  7:30pm St Peter's Church, Henfield
 
 
-#### An Evening of
- - Schubert Mass in G
- - Purcell
- - Elgar
- - Mozart
+#### An Evening of Schubert Mass in G, Purcell, Elgar, Mozart
 
+Tickets:  £15.00 (correct cash please) available from Cornerweighs, Marcus Grimes,
+The Church Office, Choir Members, on the Door or email:  <a href="mailto:stephenhope60@gmail.com">stephenhope60@gmail.com</a>
  
 
- ![concert flyer](/assets/images/concert2022-07-17.png)
+<img src="/assets/images/concert2022-11-26.png" class="concert-img" alt="" />

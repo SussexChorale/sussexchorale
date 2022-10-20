@@ -30,6 +30,7 @@ body {
 	font-size: $body-font-size;
 	line-height: 1.7;
 	color: $body-text-color;
+	background: $background;
 }
 
 #skip-to-content {
@@ -98,12 +99,10 @@ a {
 	}
 
 	@include small {
-		display: block;
-		width: 100%;
+		display: inline-block;
+		width: 49%;
 		padding: 0.25rem;
-		background-color: transparent;
-		border-color: $button-bg;
-
+		margin-bottom: 0.5rem;
 		+ .btn {
 			margin-top: 1rem;
 			margin-left: 0;
@@ -115,13 +114,13 @@ a {
 	color: $header-heading-color;
 	text-align: center;
 	background-color: $header-bg-color;
-	background-image: repeating-linear-gradient(
-		45deg,
-		transparent,
-		transparent 10px,
-		rgba($header-bg-color-tertiary, 0.5) 10px,
-		rgba($header-bg-color-tertiary, 0.5) 11px
-	),linear-gradient(0deg, $header-bg-color, $header-bg-color-secondary);
+	//background-image: repeating-linear-gradient(
+	//	45deg,
+	//	transparent,
+	//	transparent 10px,
+	//	rgba($header-bg-color-tertiary, 0.5) 10px,
+	//	rgba($header-bg-color-tertiary, 0.5) 11px
+	//),linear-gradient(0deg, $header-bg-color, $header-bg-color-secondary);
 
 	@include large {
 		padding: 3rem 6rem 1rem;
@@ -137,22 +136,28 @@ a {
 }
 
 .project-name {
-	margin-top: 0;
-	margin-bottom: 0.1rem;
-	text-shadow: 0px 0px 1px rgba($header-bg-color-tertiary, 0.7);
-
-
-	@include large {
-		font-size: 3.25rem;
-	}
-
-	@include medium {
-		font-size: 2.25rem;
-	}
-
-	@include small {
-		font-size: 2rem;
-	}
+	//margin-top: 0;
+	//margin-bottom: 0.1rem;
+	//text-shadow: 0px 0px 1px rgba($header-bg-color-tertiary, 0.7);
+	//
+	//
+	//@include large {
+	//	font-size: 3.25rem;
+	//}
+	//
+	//@include medium {
+	//	font-size: 2.25rem;
+	//}
+	//
+	//@include small {
+	//	font-size: 2rem;
+	//}
+	background: #000 url("/assets/images/logo.png") no-repeat 50% 50%;
+	margin: 0 auto;
+	padding: 0;
+	background-size: contain;
+	max-width: 64rem;
+	height: 3em;
 }
 
 .project-tagline {
@@ -267,4 +272,18 @@ a {
 .site-footer-owner {
 	display: block;
 	font-weight: normal;
+}
+
+.sr-only {
+	@include visually-hidden()
+}
+
+.biog-img {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+.concert-img {
+	display:block;
+	margin: 0 auto;
+	max-width: 100%;
 }

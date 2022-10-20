@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-GB" }}">
+<html lang="{{ site.lang | default: 'en-GB' }}">
   <head>
     <meta charset="UTF-8">
 
@@ -13,7 +13,7 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ site.title }}</h1>
+      <h1 class="project-name"><span class="sr-only">{{ site.title }}</span></h1>
       <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
       <nav>
         <a href="/" class="btn">Home</a>
@@ -27,9 +27,6 @@
       {{ content }}
 
       <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner">maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
       </footer>
     </main>
   </body>

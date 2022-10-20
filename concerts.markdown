@@ -6,25 +6,24 @@ permalink: /concerts/
 
 ## Concerts
 
-### 17th July 2022  7:15pm Arundel Cathedral
-#### Haydn's CREATION
+### 26th November 2022  7:30pm St Peter's Church, Henfield
+#### An Evening of Schubert Mass in G, Purcell, Elgar, Mozart
 
-Our next concert will be on the 17th July 2022 in the magnificent setting of Arundel Cathedral. Joined by soloists
+### Forthcoming concerts - Put these dates in your diary now
 
-- Nicola-Jane Kemp - Soprano
-- Daniel Gray Bell - Tenor
-- Lawrence Broomfield - Baritone
 
-and the Sinfonia da Chiesa
- 
- We will be raising money for St Wilfrid's and St Catherine's Hospices.
+#### GOOD FRIDAY April 7th 2023 2pm and 7 pm
 
-### Forthcoming concerts
+Stainer: The Crucifixion
 
-Put these dates in your diary now
+David Walder -Tenor
 
-#### TBC
+Simon Wilson - Baritone
 
-#### TBC
+David Moore - Organ
 
- ![concert flyer](/assets/images/concert2022-07-17.png)
+
+
+#### 23rd July 2023 ARUNDEL 7:15pm
+Mozart: Requiem 
+
