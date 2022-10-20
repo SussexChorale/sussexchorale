@@ -17,6 +17,8 @@ In the summer term, Sussex Chorale joins with the Sussex Festival Choir to sing 
 
 Tickets:  £15.00 (correct cash please) available from Cornerweighs, Marcus Grimes,
 The Church Office, Choir Members, on the Door or email:  <a href="mailto:stephenhope60@gmail.com">stephenhope60@gmail.com</a>
- 
 
+
+<a href="/assets/images/concert2022-11-26.pdf">
 <img src="/assets/images/concert2022-11-26.png" class="concert-img" alt="" />
+</a>
